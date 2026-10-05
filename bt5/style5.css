@@ -1,0 +1,68 @@
+body{
+    margin: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    color: #c2185b;
+    background-color: #fceaea;
+    padding: 5px;
+    border-bottom: 4px soid #c2185b;
+    font-size: 30px;
+}
+.container{
+    display: flex;
+    width: 600px;
+    margin: 40px auto 0 auto;
+}
+.cot-trai{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cot-trai img{
+    width: 160px;
+}
+.cot-phai{
+    width: 400px;
+}
+.cot-phai h2{
+    background-color: #ffc0cb;
+    display: inline-block;
+    padding: 3px 10px;
+    margin: 0 0 10px 0;
+    font-size: 20px;
+
+}
+.cot-phai h3{
+    background-color: #ffc0cb;
+    display: inline-block;
+    padding: 3px 10px;
+    margin: 0 0 10px 0;
+    font-size: 20px;
+}
+.gioi-thieu{
+    list-style-type: square;
+    padding-left: 20px;
+    margin-top: 0;
+
+}
+.gioi-thieu li{
+    margin-bottom: 8px;
+}
+.lien-he{
+    list-style-type: circle;
+    padding-left: 20px;
+    margin-top: 0;
+}
+.lien-he li{
+    margin-bottom: 8px;
+}
+.ban-quyen{
+    text-align: center;
+    margin-top: 20px;
+}
+.ban-quyen a{
+    color: #0000ee;
+    text-decoration: underline;
+}

@@ -1,0 +1,36 @@
+body {
+    font-family: "Times New Roman", serif;
+}
+.khung {
+    width: 80%;
+    margin: 50px auto;
+    padding: 25px;
+    background-color: #FFFDE7;
+    border: 1px solid #9E9E9E;
+    text-align: center;
+}
+h1 {
+    background-color: #FFD9E6;
+    color: #D40000;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+}
+.kho1 {
+    color: #0033CC;
+    font-style: italic;
+    font-size: 18px;
+    line-height: 1.6;
+}
+.kho2 {
+    color: #D40000;
+    font-style: italic;
+    font-size: 18px;
+    line-height: 1.6;
+}
+hr {
+    width: 55%;
+    border: none;
+    border-top: 2px solid #0033CC;
+    margin: 15px auto;
+}
