@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+    background-color: #eef2f6;
+}
+.cv {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+    overflow: hidden;
+}
+.left {
+    min-height: 420px;
+    background: linear-gradient(
+        #1565c0,
+        #0d3f7a
+    );
+    color: white;
+    text-align: center;
+    padding: 25px 18px;
+}
+.avatar {
+    width: 95px;
+    height: 95px;
+    margin: 0 auto 15px;
+    background-color: #ffffff;
+    color: #1565c0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+/* Họ tên */
+.left h1 {
+    font-size: 22px;
+    margin: 10px 0 5px;
+}
+/* Chức danh */
+.job {
+    margin-top: 0;
+    font-size: 14px;
+}
+/* Thông tin liên hệ */
+.contact {
+    margin-top: 30px;
+
+    text-align: left;
+
+    font-size: 13px;
+}
+.contact p {
+    margin: 12px 0;
+}
+.right {
+    padding: 25px;
+}
+section {
+    margin-bottom: 18px;
+}
+h2 {
+    margin: 0 0 10px;
+    color: #1565c0;
+    font-size: 18px;
+    border-bottom: 2px solid #dce7f2;
+    padding-bottom: 7px;
+}
+section p {
+    margin: 0;
+    line-height: 1.6;
+    font-size: 14px;
+    color: #333;
+}
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+.skills span {
+    background-color: #e3f0ff;
+    color: #0d3f7a;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+}
+a {
+    color: #1565c0;
+    text-decoration: underline;
+}
+a:hover {
+    color: #0d3f7a;
+}
