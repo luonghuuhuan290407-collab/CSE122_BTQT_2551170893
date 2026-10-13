@@ -1,0 +1,39 @@
+body {
+    background-color: #e6e6e6;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.khung {
+    width: 600px;
+    margin: 0 auto;
+}
+
+/* Khung đồng hồ nền đen theo ảnh mẫu */
+#dongho {
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Kích thước ảnh chữ số cao 52px */
+#dongho img {
+    height: 52px;
+    margin: 0 2px;
+}
+
+/* Khung lời chào */
+#loichao {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+#txtChao {
+    color: #c62828;
+    font-size: 40px;
+    font-weight: bold;
+}
