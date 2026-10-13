@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 30px;
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+/* 1. Dải tiêu đề: nền #2E7D32, chữ #FFEB3B, căn giữa */
+.main-title {
+    background-color: #2E7D32;
+    color: #FFEB3B;
+    text-align: center;
+    padding: 15px 0;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+.main-title h1 {
+    margin: 0;
+    font-size: 24px;
+}
+/* 2. Đoạn dẫn nhập: màu xanh #1b5e20, in nghiêng */
+.intro-text {
+    color: #1b5e20;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+/* 3. Lưới kỳ quan (Grid nhiều cột) */
+.grid-kyquan {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Chia làm 3 cột đều nhau */
+    gap: 20px;
+}
+/* Mỗi khối kỳ quan */
+.card {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease;
+}
+.card:hover {
+    transform: translateY(-3px);
+}
+/* Ảnh minh họa: viền #2E7D32, bo góc 6px */
+.card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-bottom: 3px solid #2E7D32;
+}
+/* Nội dung bên trong khối */
+.card-content {
+    padding: 15px;
+}
+/* Tiêu đề mục: số 1-6, chữ #1b5e20 */
+.card-content h3 {
+    color: #1b5e20;
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+.card-content p {
+    color: #444;
+    font-size: 13px;
+    line-height: 1.4;
+    margin: 0;
+}
+/* Responsive cơ bản nếu xem trên màn hình nhỏ (Tablet/Mobile) */
+@media (max-width: 768px) {
+    .grid-kyquan {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 480px) {
+    .grid-kyquan {
+        grid-template-columns: 1fr;
+    }
+}
