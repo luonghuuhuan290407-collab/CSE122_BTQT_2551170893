@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 17 - Kiểm tra biểu mẫu bằng JavaScript</title>
+    <link rel="stylesheet" href="style17.css">
+</head>
+<body>
+    <div class="form-container">
+        <div class="form-header">
+            <h2>Đăng ký tài khoản</h2>
+            <p>Dữ liệu được kiểm tra bằng JavaScript trước khi gửi.</p>
+        </div>
+        <!-- Biểu mẫu đăng ký -->
+        <form id="registerForm" novalidate>
+            <!-- Trường Họ và tên -->
+            <div class="form-group">
+                <label for="fullname">Họ và tên</label>
+                <input type="text" id="fullname" placeholder="Nhập họ và tên...">
+                <small class="error-message" id="fullnameError"></small>
+            </div>
+            <!-- Trường Email -->
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="text" id="email" placeholder="Nhập địa chỉ email...">
+                <small class="error-message" id="emailError"></small>
+            </div>
+            <!-- Trường Mật khẩu -->
+            <div class="form-group">
+                <label for="password">Mật khẩu</label>
+                <input type="password" id="password" placeholder="Nhập mật khẩu...">
+                <small class="error-message" id="passwordError"></small>
+            </div>
+            <!-- Trường Xác nhận mật khẩu -->
+            <div class="form-group">
+                <label for="confirmPassword">Xác nhận mật khẩu</label>
+                <input type="password" id="confirmPassword" placeholder="Nhập lại mật khẩu...">
+                <small class="error-message" id="confirmPasswordError"></small>
+            </div>
+            <button type="submit" id="submitBtn">Đăng ký</button>
+        </form>
+    </div>
+    <script src="js6.js"></script>
+</body>
+</html>
