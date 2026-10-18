@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    padding: 20px;
+}
+.page-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.banner {
+    background-color: #C62828; /* Nền #C62828 theo chuẩn yêu cầu */
+    background-image: url('Anh/Bai21/Nen_banner.jpg'); /* Ảnh nền banner */
+    background-size: cover;
+    background-position: center;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+.banner-logo {
+    height: 40px;
+    margin-right: 15px;
+}
+.banner-title {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+}
+.main-body {
+    display: flex;
+    flex-wrap: wrap; /* Hỗ trợ Responsive: hẹp thì tự động rớt dòng */
+}
+.sidebar-menu {
+    width: 200px;
+    background: linear-gradient(to bottom, #C62828, #8E0000); /* Chuyển màu từ #C62828 sang #8E0000 */
+    padding-top: 15px;
+    min-height: 500px;
+}
+.sidebar-menu ul {
+    list-style: none;
+}
+.sidebar-menu li a {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 12px 15px;
+    font-size: 14px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    transition: background 0.2s;
+}
+.sidebar-menu li a:hover,
+.sidebar-menu li a.active {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.content-area {
+    flex: 1; /* Tự động giãn nở lấp đầy khoảng trống ở giữa */
+    background-color: #ffffff;
+    padding: 25px;
+    min-width: 300px;
+}
+#content-heading {
+    color: #C62828;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.sub-menu-box {
+    background-color: #FFE082;
+    padding: 12px 20px;
+    border-radius: 6px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.sub-menu-box span {
+    cursor: pointer;
+    color: #333;
+    font-weight: 500;
+}
+.sub-menu-box span:hover {
+    color: #C62828;
+    text-decoration: underline;
+}
+.content-display {
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    padding: 30px;
+    min-height: 200px;
+    line-height: 1.6;
+}
+.center-text {
+    text-align: center;
+    margin-top: 10px;
+}
+.ads-column {
+    width: 160px;
+    background-color: #ffffff;
+    padding: 15px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Khoảng cách giữa 2 ảnh quảng cáo */
+}
+.ad-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 4px;
+}
+@media (max-width: 768px) {
+    .main-body {
+        flex-direction: column;
+    }
+    .sidebar-menu, .ads-column {
+        width: 100%;
+        min-height: auto;
+    }
+    .ads-column {
+        flex-direction: row;
+        justify-content: center;
+    }
+    .ad-item {
+        width: 120px;
+    }
+}
