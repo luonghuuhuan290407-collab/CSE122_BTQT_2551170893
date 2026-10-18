@@ -1,0 +1,31 @@
+body{
+    background-color: #e6e6e6;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 50px;
+}
+.khung{
+    width: 600px;
+    margin: 0 auto;
+}
+#dongho{
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#dongho img{
+    height: 50px;
+    margin: 0 2px;
+}
+#loichao{
+    background-color: #fffff;
+    padding: 30px;
+    border-radius: 10px
+}
+#txtchao{
+    color: #c62828;
+    font-size: 40px;
+    font-weight: bold;
+}
