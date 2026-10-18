@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 23 - Thư viện ảnh hiệu ứng Hover</title>
+    <link rel="stylesheet" href="style23.css">
+</head>
+<body>
+    <div class="main-container">
+        <!-- Khung chứa toàn bộ thư viện ảnh -->
+        <div class="gallery-wrapper">
+            <!-- Phần tiêu đề mô tả thư viện -->
+            <div class="gallery-header">
+                <h2>Thư viện ảnh — Hiệu ứng Hover</h2>
+                <p>Rê chuột lên ảnh để thấy hiệu ứng phóng to (zoom) và lớp phủ chú thích.</p>
+            </div>
+            <div class="image-grid">
+                <!-- Ô ảnh 1: Vịnh Hạ Long -->
+                <div class="image-card" onclick="selectImage('Vịnh Hạ Long')">
+                    <img src="1-vinh-ha-long.jpg" alt="Vịnh Hạ Long">
+                    <div class="overlay">
+                        <span class="location-name">Vịnh Hạ Long</span>
+                    </div>
+                </div>
+
+                <div class="image-card" onclick="selectImage('Hang Sơn Đoòng')">
+                    <img src="2-son-doong.jpg" alt="Hang Sơn Đoòng">
+                    <div class="overlay">
+                        <span class="location-name">Hang Sơn Đoòng</span>
+                    </div>
+                </div>
+                <div class="image-card" onclick="selectImage('Thác Bản Giốc')">
+                    <img src="3-thac-ban-gioc.jpg" alt="Thác Bản Giốc">
+                    <div class="overlay">
+                        <span class="location-name">Thác Bản Giốc</span>
+                    </div>
+                </div>
+                <div class="image-card" onclick="selectImage('Fansipan')">
+                    <img src="4-fansipan.jpg" alt="Fansipan">
+                    <div class="overlay">
+                        <span class="location-name">Fansipan</span>
+                    </div>
+                </div>
+                <div class="image-card" onclick="selectImage('Đồng bằng sông Cửu Long')">
+                    <img src="5-mekong.jpg" alt="Đồng bằng sông Cửu Long">
+                    <div class="overlay">
+                        <span class="location-name">Đồng bằng sông Cửu Long</span>
+                    </div>
+                </div>
+                <div class="image-card" onclick="selectImage('Động Phong Nha')">
+                    <img src="6-phong-nha.jpg" alt="Động Phong Nha">
+                    <div class="overlay">
+                        <span class="location-name">Động Phong Nha</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js23.js"></script>
+</body>
+</html>
