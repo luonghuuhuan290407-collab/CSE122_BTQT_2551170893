@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hiệu ứng ảnh với CSS Filter</title>
+    <link rel="stylesheet" href="style20.css">
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="card-box">
+            <div class="display-area">
+                <img src="hoahong.gif" alt="HH" id="my-image" class="active-effect">
+                <div class="special-text"> Special For You</div>
+            </div>
+            <div class="button-bar">
+                <button class="btn active" onclick="applyEffect('gray', this)">Gray</button>
+                <button class="btn " onclick="applyEffect('xray', this)">Xray</button>
+                <button class="btn " onclick="applyEffect('invert', this)">Invert</button>
+                <button class="btn " onclick="applyEffect('fliph', this)">Fliph</button>
+                <button class="btn " onclick="applyEffect('flipv', this)">Flipv</button>
+                <button class="btn " onclick="applyEffect('glow', this)">Glow</button>
+                <button class="btn " onclick="applyEffect('shadow', this)">Shadow</button>
+                <button class="btn " onclick="applyEffect('boldshadow', this)">BoldShadow</button>
+                <button class="btn " onclick="applyEffect('dropshadow', this)">DropShadow</button>
+                <button class="btn " onclick="applyEffect('blur', this)">Blur</button>
+                <button class="btn " onclick="applyEffect('wave', this)">Wave</button>
+                <button class="btn " onclick="applyEffect('mask', this)">Mask</button>
+                <button class="btn " onclick="applyEffect('alpha', this)">Alpha</button>
+
+            </div>
+        </div>
+    </div>
+    <script src="js20.js"></script>
+
+</body>
+
+</html>
