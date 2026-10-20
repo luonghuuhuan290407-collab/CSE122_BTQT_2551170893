@@ -1,0 +1,32 @@
+.custom-carousel-img {
+  height: 340px;      
+  object-fit: cover;     
+  width: 100%;
+}
+
+
+.custom-caption {
+  background: rgba(0, 0, 0, 0.45); 
+  color: #FFFFFF !important;        
+  padding: 8px 16px;
+  bottom: 20px;
+  left: 15%;
+  right: 15%;
+}
+
+.nav-pills .nav-link.active {
+  background-color: #0d6efd !important; /* Màu xanh chuẩn Bootstrap */
+  color: #FFFFFF !important;
+  font-weight: 500;
+}
+
+.nav-pills .nav-link {
+  color: #0d6efd;
+  background-color: transparent;
+  font-weight: 500;
+}
+.custom-tab-box {
+  background-color: #FFFFFF; 
+  color: #212529;           
+  min-height: 80px;
+}

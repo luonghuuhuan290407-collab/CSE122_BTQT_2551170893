@@ -1,0 +1,40 @@
+
+html, body {
+  height: 100%;
+  margin: 0;
+  background-color: #f8f9fa;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+.wrapper {
+  min-height: 100vh;
+}
+#sidebar {
+  width: 230px;              
+  min-width: 230px;
+  background-color: #212529 !important; 
+  color: #FFFFFF !important;            
+}
+
+#sidebar .nav-link {
+  color: #adb5bd;
+  border-radius: 6px;
+  transition: all 0.2s ease-in-out;
+}
+
+#sidebar .nav-link:hover {
+  color: #FFFFFF;
+  background-color: rgba(255, 255, 255, 0.07);
+}
+
+#sidebar .nav-link.active {
+  background-color: #0d6efd !important; /* Đang chọn màu #0d6efd theo đề bài */
+  color: #FFFFFF !important;
+  font-weight: 500;
+}
+.main-content {
+  background-color: #F8F9FA;
+  overflow-x: hidden;
+}
+.card {
+  border-radius: 10px;
+}

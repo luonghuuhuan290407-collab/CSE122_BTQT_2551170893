@@ -1,0 +1,35 @@
+.custom-table thead th {
+  background-color: #212529 !important;
+  color: #FFFFFF !important;
+  font-weight: 600;
+  border-color: #373b3e;
+}
+.table-striped > tbody > tr:nth-of-type(odd) > * {
+  background-color: #F8F9FA; 
+}
+
+.custom-badge-success {
+  background-color: #198754 !important;
+  color: #FFFFFF;
+  font-weight: 500;
+  padding: 6px 12px;
+  border-radius: 4px;
+}
+.custom-badge-warning {
+  background-color: #ffc107 !important;
+  font-weight: 500;
+  padding: 6px 12px;
+  border-radius: 4px;
+}
+.custom-pagination .page-item.active .page-link {
+  background-color: #0d6efd !important;
+  border-color: #0d6efd !important;
+  color: #FFFFFF !important;
+}
+.custom-pagination .page-link {
+  color: #0d6efd;
+}
+
+.custom-pagination .page-link:hover {
+  background-color: #e9ecef;
+}
