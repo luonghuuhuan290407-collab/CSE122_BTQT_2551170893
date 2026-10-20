@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eef2f6;
+}
+.cv{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+.left{
+    min-height: 400px;
+    background: #1565c0
+    color:white;
+    text-align: center;
+    padding: 25px 20px;
+}
+.avatar{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 15px;
+    background-color: #ffffff;
+    color: #1565c0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.left h1{
+    font-size: 20px;
+    margin: 10px 0 5px;
+}
+.job{
+    margin-top: 0;
+    font-size: 15px;
+}
+.contact{
+    margin-top: 30px;
+    text-align: left;
+    font-size: 15px;
+}
+.contact p{
+    margin: 12px 0;
+}
+.right{
+    padding: 25px;
+}
+section{
+    margin-bottom: 20px;
+}
+h2{
+    margin: 0 0 10px;
+    color: #1565c0;
+    font-size: 20px;
+    border-bottom: 2px solid #dce7f2;
+    padding-bottom: 8px;
+}
+section p{
+    margin: 0;
+    line-height: 1.5;
+    font-size: 15px;
+    color: #333;
+}
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.skills span{
+    background-color: #e3f0ff;
+    color: #0d3f7a;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 15px;
+}
+a{
+    color: #1565c0;
+    text-decoration: underline;
+}
+a:hover{
+    color: #0d3f7a;
+}

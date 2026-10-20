@@ -1,0 +1,122 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+   font-family: Arial, Helvetica, sans-serif; 
+   background-color:#ffffff ;
+   padding: 20px;
+   color:#333333 ;
+   line-height: 1.5;
+}
+.container{
+    width: 850px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border: 1px solid#d0d0d0;
+    padding: 15px 20px;
+    box-shadow: 0 4px 10px rgba(0,0, 0, 0.1);
+}
+.page-title{
+    color: #1668c1;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #1668c1;
+    margin-bottom: 15px;
+}
+.main-layout{
+    display: flex;
+    gap: 20px;
+}
+.sidebar{
+    width: 180px;
+    flex-shrink: 0;
+}
+.sidebar-title{
+    display: block;
+    font-size: 10px;
+    font-weight: bold;
+    color: #888888;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.menu a{
+    color: #1668c1;
+    text-decoration: none;
+    font-family: 15px;
+    font-weight: bold;
+}
+.menu a:hover{
+    text-decoration: underline;
+}
+.content{
+    flex-grow: 1;
+}
+.category{
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed #d0d0d0;
+}
+.category-title{
+    background-color: #1668c1;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+.news-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+.new-text{
+    flex: 1;
+}
+.new-title{
+    color: #1668c1;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.new-desc{
+    font-size: 13px;
+    color: #333333;
+}
+.news-img{
+    width: 120px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 3px;
+    border: 1px solid #e0e0e0;
+}
+.emty-note{
+    font-family: 15px;
+    color:#777 ;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+.back-to-top{
+    display: block;
+    text-align: right;
+    color: #1668c1;
+    font-size: 10px;
+    text-decoration: none;
+    margin-top: 5px;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.back-to-top:hover{
+    text-decoration: underline;
+}

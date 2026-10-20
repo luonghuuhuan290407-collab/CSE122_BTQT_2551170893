@@ -1,0 +1,85 @@
+body{
+    background-image: url(Nen.gif);
+    background-repeat: repeat;
+    display:flex;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.main-card{
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    width: 450px;
+    text-align: center;
+}
+.calendar-box{
+    border: 1px solid #ccc;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+.year{
+    color: #c62828;
+    font-size: 18px;
+    font-weight: bold;
+}
+.day{
+    color: #c62828;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 10px 0;
+}
+.month,.weekday{
+    color: #1565c0;
+    font-size: 20px;
+}
+.greeting{
+    color: #c62828;
+    font-style: italic;
+    font-size: 20px;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+.form-container{
+    border: 2px solid #1565c0;
+    border-radius: 10px;
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.input-group{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 15px;
+    color: #333;
+}
+.input-group input{
+    width: 60px;
+    padding: 6px;
+    text-align: end;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-top: 5px;
+}
+#btn-print{
+    background-color: #546e7a;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+    line-height: 1.2;
+}
+#btn-print:hover{
+    background-color: #455a64;
+}
