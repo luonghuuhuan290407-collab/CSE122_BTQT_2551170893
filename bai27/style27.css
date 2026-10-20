@@ -1,0 +1,37 @@
+.my-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  overflow: hidden;
+}
+.my-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1) !important;
+}
+.custom-card-img {
+  height: 180px;
+  object-fit: cover;
+  width: 100%;
+}
+.custom-btn-danger {
+  background-color: #dc3545 !important;
+  border-color: #dc3545 !important;
+  border-radius: 6px;
+  font-weight: 500;
+}
+.custom-btn-danger:hover {
+  background-color: #bb2d3b !important;
+  border-color: #b02a37 !important;
+}
+.custom-accordion-btn {
+  background-color: #dbe7ff !important; 
+  color: #1c3d7a !important;          
+  font-weight: 600;
+  box-shadow: none !important;
+}
+
+.custom-accordion-btn:not(.collapsed) {
+  background-color: #dbe7ff !important;
+  color: #1c3d7a !important;
+}
+.modal-content {
+  background-color: #FFFFFF;
+}
