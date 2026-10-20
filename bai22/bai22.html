@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 22 - Chế độ Sáng / Tối</title>
+    <link rel="stylesheet" href="style22.css">
+</head>
+<body class="toi">
+
+    <div class="container">
+        <header class="header">
+            <h2 class="main-title">Chế độ Tối / Sáng</h2>
+        
+            <label class="toggle-switch">
+                <input type="checkbox" id="theme-toggle" checked>
+                <span class="slider"></span>
+            </label>
+        </header>
+
+        <main class="content">
+            <div class="card">
+                <h3 class="card-title">Biến CSS (CSS Variables)</h3>
+                <p class="card-text">Toàn bộ màu sắc được khai báo trong <code>:root</code> và ghi đè bằng class <code>.toi</code>.</p>
+            </div>
+
+            <div class="card">
+                <h3 class="card-title">Chuyển đổi bằng JavaScript</h3>
+                <p class="card-text">Nút gạt thêm/bỏ class <code>.toi</code> trên <code>&lt;body&gt;</code> — mọi thành phần tự đổi màu.</p>
+            </div>
+
+            <div class="card">
+                <h3 class="card-title">Chuyển màu mượt</h3>
+                <p class="card-text">Dùng <code>transition</code> để màu nền và chữ chuyển dần, không bị giật.</p>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <p id="status-text">Đang ở chế độ TỐI (đang bật).</p>
+        </footer>
+    </div>
+
+    <script src="js22.js"></script>
+</body>
+</html>
